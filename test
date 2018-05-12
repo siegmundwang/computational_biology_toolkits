@@ -1,0 +1,20 @@
+
+
+Go to the database UniProt www.uniprot.org; let us know the number of human proteins (UniProtKB), as well as the amount of well-annotated human proteins (SwissProt) in the newest release.
+检索UniProt可得, 未注释的人类的蛋白质个数为142774; 人工注释和审核的蛋白质个数为20341; 可认为人类的总蛋白数为142774+20341=163115
+Try to analyze the proteomics data human proteomics samples (5 cancer and 5
+normal) using MaxQuant software Describe the number of peptides and protein you identified (FDR<0.01).
+3. The expressions of mini-peptides have been reported in human proteome studies. In
+order to investigate the expression of possible mini-peptides in human proteome,
+please perform the following steps:
+(1) Use 3-frame translation to predict the ORF in human ref genome, of which length
+is between 6 and 100 AA [6,100].
+(2) Remove the entries contained by any known human proteins, as well as the
+redundancy.
+(3) Construct a fasta database using the putative mini-peptides, and detect their
+expression in ten human proteomics samples mentioned in #2.
+(4) Summarize your database and report the mini-peptides you find (FDR<=0.01).
+You may find the proteomics data at /share/data/proteomics/colorectal_cancer, the reference
+genome at /share/data/proteomics/. Please contact TA if you have any question about data
+download or software running.
+* Discussion is encouraged. BUT, please finish your homework independently
